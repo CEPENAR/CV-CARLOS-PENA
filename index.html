@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV CARLOS PEÑA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <!--Contenedor Principal-->
+    <div class="contenedor-principal" id="contenedor-principal">
+        <!--informacion general-->
+        <div class="informacion-general">
+            <!--descripcion-->
+            <div class="descripcion">
+                <h3 class="descripcion-profesion">Front-End Developer</h3>
+                <h1 class="mi-nombre">Carlos Eduardo Peña Rojas</h1>
+                <p class="texto-descripcion">Soy un apasionado de la tecnología y el desarrollo web. Actualmente, me encuentro en el emocionante viaje de aprender a programar, y aunque soy un aprendiz, ya he logrado construir algunos proyectos que me llenan de orgullo. <br><br>
+
+                Me interesa principalmente el desarrollo front-end, y me encanta crear experiencias de usuario atractivas y funcionales. Estoy enfocado en dominar tecnologías como HTML, CSS, JavaScript, y React.js, y estoy comprometido a seguir creciendo profesionalmente en este campo.
+                </p>
+            </div>  
+            <!--Proyectos-->  
+            <div class="proyectos">
+                <h3 class="titulo-secion-principal">Proyectos por desarrollar</h3>
+                <ol class="lista-proyectos"> 
+                    <li> 
+                        <a class="enlaces-proyectos" href="https://barbershop.goit.global/"> <span>BarberShop</span> </a>
+                        <span class="puntos-proyecto">- - - - - - - - - - - - - - - -</span>
+                        <span>[ <span class="programacion">Un sitio web atractivo y funcional, para desarrollar con HTML5 y CSS3.</span>]</span>
+                    </li>
+                    <li>
+                        <a class="enlaces-proyectos" href="https://cryptohub.goit.global/"> <span>CryptoHub</span> </a>
+                        <span class="puntos-proyecto">- - - - - - - - - - - - - - - - -</span>
+                        <span>[ <span class="programacion">Una página interactiva utilizando JavaScript.</span>  ]</span>
+                    </li>
+                    <li>
+                        <a class="enlaces-proyectos" href="https://kidslike.goit.global/"> <span>KidsLike</span> </a>
+                        <span class="puntos-proyecto">- - - - - - - - - - - - - - - - - - -</span>
+                        <span>[ <span class="programacion">Un proyecto con React.js que resalta la importancia de la educación y el entretenimiento.</span>]</span>
+                    </li>
+                </ol>
+            </div>
+            <!-- Experiencia laboral -->
+            <div class="experiencia-laboral">
+                <h3 class="titulo-secion-principal">Experiencia laboral</h3>
+                <!--Empresa 1-->
+                <div>
+                    <h4 class="puesto-empresa">Front-End Developer <span class="texto-naranja">Freelance </span> </h4>
+                    <!-- <p class="periodo-empresa">September 2019 - up to now   |   Country</p> -->
+                        <ul class="lista-experiencia">
+                            <li> Aunque aún no cuento con experiencia profesional formal como desarrollador, mi enfoque está en aprender y desarrollar proyectos que aporten valor a la sociedad colombiana. Mi objetivo es utilizar la programación y el desarrollo web para crear soluciones innovadoras que resuelvan problemas reales, especialmente en áreas que puedan mejorar la calidad de vida de las personas. <br> <br>
+
+                            Estoy comprometido con la constante mejora de mis habilidades y conocimientos en el campo de la tecnología. Cada proyecto que desarrollo, cada línea de código que escribo, es una oportunidad para crecer y contribuir positivamente a mi comunidad y a mi país. <br> <br>
+                                
+                            A través de mis estudios y proyectos personales, estoy aprendiendo a trabajar con diversas tecnologías como HTML, CSS, JavaScript y React.js, y planeo seguir ampliando mis conocimientos para crear aplicaciones y soluciones más robustas. <br> <br>
+                                
+                            Mi sueño es combinar mis habilidades de programación con mi deseo de hacer una diferencia significativa en la sociedad colombiana, creando herramientas y servicios que realmente ayuden a las personas en su vida diaria. <br></li>
+                        </ul>
+                </div>
+                <!--Empresa 2-->
+                <div>               
+                    <h4 class="puesto-empresa">Manager <span class="texto-naranja"> Glory New</span></h4>
+                    <p class="periodo-empresa">March 2015 - October 2018   |   Country</p>
+                    <ul class="lista-experiencia">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod labore et dolore magna aliqua. </li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+                <!--Empresa 3-->
+                <div>
+                    <h4 class="puesto-empresa">Manager <span class="texto-naranja">Glory LLC</span> </h4>
+                    <p class="periodo-empresa">June 2014 - February 2015   |   Country</p>
+                    <ul class="lista-experiencia">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas. </li>
+                    </ul>
+                </div>
+            </div>
+                <!--Educacion-->
+                <div class="educacion">
+                    <h3 class="titulo-secion-principal">Educación</h3>
+                    <!--Univerrsidad-->
+                    <h4 class="universidad">Instituto Técnico del Norte - ITN</h4>
+                    <h5 class="managemet">Management</h5>
+                    <p class="periodo-empresa">Enero 2008 - Diciembre 2008   |   Colombia</p>
+                    <!--Univerrsidad-->
+                    <h4 class="universidad">Servicio Nacional de Aprendizaje - SENA</h4>
+                    <h5 class="managemet">Management</h5>
+                    <p class="periodo-empresa">Enero 2010 - June 2012   |   Colombia</p>
+                    <!--Univerrsidad-->
+                    <h4 class="universidad">Universidad Nacional Abierta y a Distancia - UNAD</h4>
+                    <h5 class="managemet">Management</h5>
+                    <p class="periodo-empresa">Enero 2014 - June 2022   |   Colombia</p>
+            </div>
+    </div>
+        <!--informacion Secundaria-->
+        <aside class="informacion-lateral">
+            <img src="./img/perfil.jpeg" alt="Mi foto de perfil" class="foto-perfil">
+            <!--Contactos-->
+            <div class="contactos">
+                <h3 class="titulo-lateral">Contacts</h3>
+                <div>
+                    <span class="tipo-contacto">Contacto:</span>
+                    <a class="contacto-info" href="tel: +57 318 314 07 86"> +57 318 314 07 86</a>
+                </div>
+                <div>
+                    <span class="tipo-contacto">E-mail:</span>
+                    <a class="contacto-info" href="mailto:johndoe@gmail.com">tecnologo-sistemas@hotmail.es</a>
+                </div>    
+            </div>
+            <!--habilidades Tecnicas--> 
+            <div class="habilidadesd-tecnicas">
+                <h3 class="titulo-lateral">Tech Skills</h3>
+                <ul class="lista-lateral">
+                    <li> <span class="elemento-lista-lateral">HTML5</span> </li>
+                    <li> <span class="elemento-lista-lateral">CSS3</span> </li>
+                    <li> <span class="elemento-lista-lateral">GIT</span> </li>
+                    <li> <span class="elemento-lista-lateral">WebPack</span> </li>
+                    <li> <span class="elemento-lista-lateral">JavaScript</span> </li>
+                    <li> <span class="elemento-lista-lateral">React.js</span> </li>
+                    <li> <span class="elemento-lista-lateral">Node.js</span> </li>
+                </ul>
+            </div>
+            <!--Habilidades bladas-->
+            <div class="habilidades-blandas">
+                <h3 class="titulo-lateral">Soft Skills</h3>
+                <ul class="lista-lateral">
+                    <li> <span class="elemento-lista-lateral">Scrum</span> </li>
+                    <li> <span class="elemento-lista-lateral">Agile</span> </li>
+                    <li> <span class="elemento-lista-lateral">GTD</span> </li>
+                    <li> <span class="elemento-lista-lateral">Teamwork</span> </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <button id="downloadPDF" onclick="downloadPDF()">Descargar en PDF</button>
+    
+    <!-- <a href="#" id="downloadPDF" onclick="downloadPDF()">Descargar en PDF></a> -->
+
+    <!-- Archivo JavaScript -->
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>
+
